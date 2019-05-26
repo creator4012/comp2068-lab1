@@ -1,6 +1,6 @@
-const express = require('express')
+const express = require('express');
 const app = express();
-const port = 4000;
+const port = 3000;
 
 app.get('/', (req, res) => {
     res.send('Hi, welcome to our group lab 1. You can navigate through our site by typing /about, /contact or just / in the URL.');
