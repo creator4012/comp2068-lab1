@@ -14,4 +14,4 @@ app.get('/contact', (req, res) => {
     res.send('You can reach us at admin@media.ca or visit us in orillia.');
 });
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
